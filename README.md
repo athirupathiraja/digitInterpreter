@@ -3,6 +3,8 @@
 ## Introduction
 Three layered Neural Network to interpret the numerical value of digits from its visual representations. 
 
+This is introductory product to ML & Neural Network Architecture. 
+
 ## Neural Network Architecture
 **Dataset:** Built using the MNIST handwritten digit database, consisting of **_'m'_ training images**, with each image spanning 28 x 28 pixels. 
 
@@ -20,8 +22,18 @@ Three layered Neural Network to interpret the numerical value of digits from its
 
 **A<sup>[1]</sup>** : [ReLU](https://www.kaggle.com/dansbecker/rectified-linear-units-relu-in-deep-learning) activation function for Z<sup>[1]</sup>. This function returns 0 for any negative value of x and returns the value x for any positive value. 
 
-**A<sup>[2]</sup>** : [Softmax](https://towardsdatascience.com/softmax-activation-function-how-it-actually-works-d292d335bd78) activation function for Z<sup>[1]</sup> which provides a multidimensional probability distribution for each of the possible numerical outputs from 0 through 9. 
+**A<sup>[2]</sup>** : [Softmax](https://towardsdatascience.com/softmax-activation-function-how-it-actually-works-d292d335bd78) activation function for Z<sup>[1]</sup> which provides a multinomial probability distribution for each of the possible numerical outputs from 0 through 9. 
 
+### Backward Propogation: 
+
+**Description:** 
+
+**dZ<sup>[i]</sup>** : Calculating error in each layer
+
+**dW<sup>[i]</sup> & db<sup>[i]</sup>** : Calculating the contribution of weights and biases to error in each layer. 
+
+### Updating Parameters: 
+Updating individual parameters with a user-defined learning rate, &alpha; for gradient descent
 
 
 
