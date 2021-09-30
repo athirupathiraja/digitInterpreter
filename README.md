@@ -1,11 +1,19 @@
 # Digit Interpreter
 
+ <p align = "left" >
+  <img width="850" height="500" src="gifs/digitvidnew.gif">
+</p>
+
 ## Introduction
 Three layered Neural Network to interpret the numerical value of digits from its visual representations. 
 
 This is introductory product to ML & Neural Network Architecture. 
 
 ## Neural Network Architecture
+<p align = "left" >
+  <img width="500" height="250" src="gifs/neuralNetwork.png">
+</p>
+
 **Dataset:** Built using the MNIST handwritten digit database, consisting of **_'m'_ training images**, with each image spanning 28 x 28 pixels. 
 
 **Input Layer (_l_=[0]):** Input Layer has 784 nodes, each representing one pixel in an image of 28 by 28 pixels. 
@@ -13,6 +21,10 @@ This is introductory product to ML & Neural Network Architecture.
 **Output Layer (_l_=[2]):** Output Layer has 10 nodes, each representing a possible numerical prediction ranging from 0 to 9. 
 
 ### Forward Propogation: 
+
+<p align = "left" >
+  <img width="550" height="350" src="gifs/forwardProp.png">
+</p>
 
 **Description:** 
 
@@ -26,6 +38,10 @@ This is introductory product to ML & Neural Network Architecture.
 
 ### Backward Propogation: 
 
+<p align = "left" >
+  <img width="550" height="500" src="gifs/backProp.png">
+</p>
+
 **Description:** 
 
 **dZ<sup>[i]</sup>** : Calculating error in each layer
@@ -33,6 +49,11 @@ This is introductory product to ML & Neural Network Architecture.
 **dW<sup>[i]</sup> & db<sup>[i]</sup>** : Calculating the contribution of weights and biases to error in each layer. 
 
 ### Updating Parameters: 
+
+<p align = "left" >
+  <img width="500" height="250" src="gifs/updateParams.png">
+</p>
+
 Updating individual parameters with a user-defined learning rate, &alpha; for gradient descent
 
 
