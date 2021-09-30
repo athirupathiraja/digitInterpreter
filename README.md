@@ -1,7 +1,7 @@
 # Digit Interpreter
 
  <p align = "left" >
-  <img width="850" height="500" src="gifs/digitvidnew.gif">
+  <img width="850" height="450" src="gifs/digitvidnew.gif">
 </p>
 
 ## Introduction
