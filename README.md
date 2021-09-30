@@ -7,7 +7,7 @@
 ## Introduction
 Three layered Neural Network to interpret the numerical value of digits from its visual representations. 
 
-This is introductory product to ML & Neural Network Architecture. 
+This is introductory project to ML & Neural Network Architecture. 
 
 ## Neural Network Architecture
 <p align = "left" >
