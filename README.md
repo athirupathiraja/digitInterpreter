@@ -51,7 +51,7 @@ This is introductory product to ML & Neural Network Architecture.
 ### Updating Parameters: 
 
 <p align = "left" >
-  <img width="500" height="250" src="gifs/updateParams.png">
+  <img width="450" height="250" src="gifs/updateParams.png">
 </p>
 
 Updating individual parameters with a user-defined learning rate, &alpha; for gradient descent
