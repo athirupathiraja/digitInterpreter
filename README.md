@@ -9,6 +9,8 @@ Three layered Neural Network to interpret the numerical value of digits from its
 
 This is introductory project to ML & Neural Network Architecture. 
 
+Made using numpy and math. 
+
 ## Neural Network Architecture
 <p align = "left" >
   <img width="500" height="250" src="gifs/neuralNetwork.png">
