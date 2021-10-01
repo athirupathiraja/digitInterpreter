@@ -30,7 +30,7 @@ Made using numpy and math.
 
 **Description:** 
 
-**Z<sup>[i]</sup>** : Z(X) is a set of functions for each unit to predict the output given the set of inputs _'X'_. Each function is a linear combination of the scalor product of the weight **_'w <sup>[i]</sup>'_**,  a descriptor of the relative significance of the input and the previous, **_'A <sup>[i]</sup>'_** plus a constant bias term, **_'b <sup>[i]</sup>'_**, controlling the affect of the activation function on each node. 
+**Z<sup>[i]</sup>** : Z(X) is a set of functions for each unit to predict the output given the set of inputs _'X'_. Each function is a linear combination of the scalar product of the weight **_'w <sup>[i]</sup>'_**,  a descriptor of the relative significance of the input and the previous, **_'A <sup>[i]</sup>'_** plus a constant bias term, **_'b <sup>[i]</sup>'_**, controlling the affect of the activation function on each node. 
 
 **A<sup>[0]</sup>** : input layer with the set of inputs, **_'X'_**. 
 
